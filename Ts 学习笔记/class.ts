@@ -1,11 +1,10 @@
 // 类
-
 class Demo {
-    greeting: string;
+    greeting: string; // greeting的属性
     constructor(message:string){
         this.greeting = message
     }
-    greet(val?) {
+    greet(val?) { //val? 参数val可有可无
         console.log('haha' + this.greeting+'0000'+val)
     }
 }
@@ -13,7 +12,7 @@ let ha = new Demo('dingming')
 
 console.log(ha.greet())
 
-class Demo2 extends Demo{
+class Demo2 extends Demo{  // 继承
     bark() {
         return 'haha' + this.greeting
     }
@@ -23,13 +22,12 @@ let ha2 = new Demo2('lala')
 
 console.log(ha2.greet(),ha2.bark())
 
-
 class DD extends Demo{
     constructor(message:string){
         super(message)
     }
     greet(val = 5){
-        super.greet(val)
+        super.greet(val)  // super可以调用派生的方法
     }
 }
 
