@@ -1,6 +1,10 @@
 // 类
 class Demo {
     greeting: string; // greeting的属性
+    private _name: string //  _name 是个私人的
+    static print () { // 静态的
+        console.log('static method')
+    }
     constructor(message:string){
         this.greeting = message
     }

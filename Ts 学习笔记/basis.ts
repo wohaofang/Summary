@@ -1,3 +1,4 @@
+// 基础
 interface Person{  // 接口，类似于对象变量的 预声明
     firstName : string;
     lastName : string;
