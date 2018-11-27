@@ -4,6 +4,8 @@ function buildName(val1) {
     for (var _i = 1; _i < arguments.length; _i++) {
         valR[_i - 1] = arguments[_i];
     }
-    console.log(val1 + " " + valR.join(" "));
+    return val1 + " " + valR.join(" "));
 }
 buildName('a', 'haha', 'lala');
+
+
