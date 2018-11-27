@@ -1,6 +1,6 @@
-// {
+{
 //     // 编译选项
-//     "compilerOptions": {
+    "compilerOptions": {
 //       // 输出目录
 //       "outDir": "./output",
 //       // 是否包含可以用于 debug 的 sourceMap
@@ -18,7 +18,7 @@
 //       // 将每个文件作为单独的模块
 //       "isolatedModules": false,
 //       // 启用装饰器
-//       "experimentalDecorators": true,
+      "experimentalDecorators": true,
 //       // 启用设计类型元数据（用于反射）
 //       "emitDecoratorMetadata": true,
 //       // 在表达式和声明上有隐含的any类型时报错
@@ -47,5 +47,5 @@
 //         "es2015",
 //         "es2015.promise"
 //       ]
-//     }
-//   }
+    }
+  }
